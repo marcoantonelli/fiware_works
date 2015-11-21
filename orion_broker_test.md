@@ -74,3 +74,6 @@ $ wget https://raw.githubusercontent.com/marcoantonelli/fiware_works/master/shel
 ## change '28-00000484153d' with your device id (you can find it with $ ls -l /sys/bus/w1/devices/)
 ## run the script
 $ bash shell_curl_temp_loop.sh
+
+## if everything is working the device will update the current temperature every 3 second. it is possible to check this with a GET call to the server
+$ curl 192.168.2.135:1026/v1/contextEntities
