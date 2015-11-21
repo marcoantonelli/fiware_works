@@ -1,3 +1,5 @@
+#Fiware Orion Broker mock test
+## server preparation
 # install docker on Ubuntu 14.04
 #http://docs.docker.com/engine/installation/ubuntulinux/
 
