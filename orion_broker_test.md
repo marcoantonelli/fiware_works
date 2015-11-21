@@ -3,7 +3,7 @@
 ## install docker on Ubuntu 14.04 -> http://docs.docker.com/engine/installation/ubuntulinux/
 
 #PREPARE THE ENVIROMENT
-Update your apt sources
+## Update your apt sources
 $ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
 
 $ nano /etc/apt/sources.list.d/docker.list
